@@ -1,61 +1,56 @@
-<div align="center">
-  <img src="https://via.placeholder.com/120x120/4f46e5/ffffff?text=í´–" alt="AI SaaS Platform" />
-  
-  # í´– AI SaaS Platform
-  
-  **Complete AI-powered SaaS solution with dynamic pricing, intelligent chatbot, A/B testing, and multi-language support**
-  
-  [![Build Status](https://github.com/ofer43211/ai-saas-platform/workflows/Deploy/badge.svg)](https://github.com/ofer43211/ai-saas-platform/actions)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
-  [![Firebase](https://img.shields.io/badge/Firebase-10.7-orange.svg)](https://firebase.google.com/)
-  [![Stripe](https://img.shields.io/badge/Stripe-Integrated-6772e5.svg)](https://stripe.com/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-  
-  [íº€ Live Demo](https://ai-saas-platform.vercel.app) â€¢ [í³– Documentation](https://docs.ai-saas-platform.com) â€¢ [í³± Mobile App](#mobile)
-</div>
+# ðŸ¤– AI SaaS Platform
 
----
+![AI SaaS Platform](https://via.placeholder.com/120x120/4f46e5/ffffff?text=AI)
 
-## âœ¨ **What Makes This Platform Special**
+Complete AI-powered SaaS solution with dynamic pricing, intelligent chatbot, A/B testing, and multi-language support
 
-### í¾¯ **AI-Powered Features**
-- í´– **Smart Chatbot** with voice recognition & TTS
-- í³Š **A/B Testing** with ML-driven insights
-- í·  **Intelligent Analytics** with prediction models
-- í¾¯ **Personalized Experiences** based on user behavior
-- í´® **Predictive Pricing** optimization
+## âœ¨ Features
 
-### í¼ **Global & Accessible**
-- í¼ **Multi-Language Support** (Hebrew RTL included)
-- í²° **Dynamic Pricing** with real-time updates
-- í´” **Push Notifications** across all platforms
-- í³§ **Professional Email Templates**
-- í³± **React Native Mobile App**
+- ðŸ¤– **Smart Chatbot** with voice recognition & TTS
+- ðŸ”„ **A/B Testing** with ML-driven insights  
+- ðŸ“Š **Intelligent Analytics** with prediction models
+- ðŸŽ¯ **Personalized Experiences** based on user behavior
+- ðŸ’° **Predictive Pricing** optimization
+- ðŸŒ **Multi-Language Support** (Hebrew RTL included)
+- âš¡ **Dynamic Pricing** with real-time updates
+- ðŸ”” **Push Notifications** across all platforms
+- ðŸ“§ **Professional Email Templates**
+- ðŸ“± **React Native Mobile App**
 
----
+## ðŸš€ Quick Start
 
-## íº€ **Quick Start**
-
-### **Local Development**
+### Clone repository
 ```bash
-# Clone repository
 git clone https://github.com/ofer43211/ai-saas-platform.git
 cd ai-saas-platform
+```
 
-# Install dependencies
+### Install dependencies
+```bash
 npm install
+```
 
-# Setup environment variables
+### Setup environment variables
+```bash
 cp .env.example .env.local
 # Edit .env.local with your API keys
+```
 
-# Start development server
-npm run dev        # Frontend (localhost:3000)
+### Start development server
+```bash
+npm run dev # Frontend (localhost:3000)
+```
 
-# Build for production
+### Build for production
+```bash
 npm run build
-cat > vite.config.ts << 'EOF'
+```
+
+## âš™ï¸ Configuration
+
+Create your `vite.config.ts`:
+
+```typescript
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -66,3 +61,25 @@ export default defineConfig({
     open: true
   }
 })
+```
+
+## ðŸ› ï¸ Tech Stack
+
+- âš›ï¸ **React** - Frontend framework
+- ðŸ”¥ **Firebase** - Backend & Authentication
+- ðŸ“± **React Native** - Mobile app
+- ðŸ’³ **Stripe** - Payment processing
+- ðŸŽ¨ **Tailwind CSS** - Styling
+- ðŸ“ˆ **Analytics** - ML-driven insights
+
+## ðŸ“ License
+
+MIT License
+
+## ðŸ¤ Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## ðŸ“ž Support
+
+For support, email support@example.com or join our community.
